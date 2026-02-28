@@ -15,3 +15,6 @@ this fixes it.
 ```bash
 python wraith.py -sS 192.168.1.0/24
 python wraith.py -A 10.0.0.1
+```
+### Reminder
+Venom-vault (v2.0) under development 
