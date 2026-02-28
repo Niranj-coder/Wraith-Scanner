@@ -1,6 +1,6 @@
 # wraith-scanner v1.1
 
-nmap in termux = cancer (freezes, SO_ERROR 103, dead terminal)
+nmap in termux = a huge pain in the ass (freezes, SO_ERROR 103, dead terminal)
 
 this fixes it.
 
