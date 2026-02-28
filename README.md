@@ -9,7 +9,8 @@ this fixes it.
 - auto save → ~/logs/ (with timestamp)
 - just run `python wraith.py` + normal nmap flags
 - scan done (finally! 😂)
-
+### IMPORTANT
+(first u should have pip & nmap installed to run this!)
 ### usage
 ```bash
 python wraith.py -sS 192.168.1.0/24
