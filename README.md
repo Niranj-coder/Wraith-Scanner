@@ -1,17 +1,16 @@
-#  WRAITH-SCANNER v1.1
+# wraith-scanner v1.1
 
-**A surgical network scanner for Android (Termux) that actually works without the error drama!!!**
+nmap in termux = cancer (freezes, SO_ERROR 103, dead terminal)
 
----
+this fixes it.
 
-### 🔍 Why I built this:
-Nmap on Android usually freezes or throws `SO_ERROR 103` drama. This script bypasses all that with live streaming and automatic logging.
+### features
+- live output (no hang)
+- auto save → ~/logs/ (with timestamp)
+- just run `python wraith.py` + normal nmap flags
+- scan done (finally! 😂)
 
-### 🚀 FEATURESSS!!!
-* **No Freezing**: Uses subprocess pipes so the terminal doesn't hang.
-* **Auto-Log**: Every scan is saved to `/logs` automatically.
-
----
-
-### 🏗️ Staging Area:
-* **Venom-Vault (v2.0)**: Currently under development......
+### usage
+```bash
+python wraith.py -sS 192.168.1.0/24
+python wraith.py -A 10.0.0.1
